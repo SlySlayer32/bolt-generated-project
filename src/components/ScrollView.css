@@ -1,0 +1,19 @@
+.scroll-view {
+      overflow-y: auto;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    .scroll-view.ios {
+      padding-bottom: 20px;
+    }
+
+    .scroll-view.android {
+      padding-bottom: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .scroll-view {
+        padding: 8px;
+      }
+    }

@@ -1,0 +1,20 @@
+.safe-area-view {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      box-sizing: border-box;
+    }
+
+    .safe-area-view.ios {
+      padding-top: 40px;
+    }
+
+    .safe-area-view.android {
+      padding-top: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .safe-area-view {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    }

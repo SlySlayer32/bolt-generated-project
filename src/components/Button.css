@@ -1,0 +1,23 @@
+.button {
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .button.ios {
+      background-color: #007AFF;
+    }
+
+    .button.android {
+      background-color: #3F51B5;
+    }
+
+    @media (max-width: 768px) {
+      .button {
+        padding: 8px;
+        font-size: 14px;
+      }
+    }
